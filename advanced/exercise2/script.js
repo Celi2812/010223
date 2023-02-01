@@ -1,0 +1,12 @@
+let people = ["Greg", "Mary", "Devon","James"];
+people.shift();
+people.unshift("Matt");
+people.pop();
+people.push("Celina");
+let people2 = people.slice(2);
+console.log(people2);
+console.log(people.indexOf("Mary"));
+console.log(people.indexOf("Foo"));
+console.log(people);
+people.splice(2, 1, "Elisabeth", "Anna");
+console.log(people);
